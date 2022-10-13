@@ -1,66 +1,28 @@
+:root{
+    --cnopka-color:#212121;
+    --contakt-color:#757575;
+    --fokus-color:#2196F3;
+}
 body {
---cnopka-color:#212121;
---contakt-color:#757575;
---fokus-color:#2196F3;
 font-family: 'roboto', sans-serif;
+background-color: #fff;
+font-size: 14px;
 }
 .logo{
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-
     color: #2196F3;
     
 }
 
 .header{
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    
     background: #2F303A;
 }
 /* h1 заголовок. Ефективні рішення для вашого бізнесу */
 .business{
-    position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1,36;
-
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
 color: #FFFFFF;
 
 }
 /* кнопка */
 .servis{
-    position: absolute;
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
-    color: #fff;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -71,25 +33,12 @@ color: #FFFFFF;
 }
 /* Студія */
 .studiaa{
-    position: absolute;
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
     color: var(--cnopka-color);
     
 }
-a, ul {
-    list-style: none;
-    text-decoration: none;
-}
+
 /* Портфоліо */
 .portfolio{
-    position: absolute;
-    width: 72px;
-    height: 16px;
-    left: 548px;
-    top: 32px;
     color: var(--cnopka-color);
     
     
@@ -97,41 +46,20 @@ a, ul {
 
 /* "Контакти" */
 .contact{
-    position: absolute;
-    width: 64px;
-    height: 16px;
-    left: 670px;
-    top: 32px;
     color: var(--cnopka-color);
     
 }
 /* телефон та мейл */
 .mail{
-    position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
 color: var(--contakt-color);
 }
 .tel{
     position: absolute;
 width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
 color:var(--contakt-color);
 }
-.detali{position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 215px;
-    top: 774px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
+.detali{
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -146,10 +74,5 @@ color: #000;
 }
 
 .footer{
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
     background: #2F303A;
 }
