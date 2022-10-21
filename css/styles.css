@@ -6,6 +6,7 @@
 .header {
 }
 .header-logo {
+    font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -135,6 +136,7 @@
   background: #2f303a;
 }
 .footer-logo {
+    font-family:'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -145,6 +147,7 @@
   color: #000000;
 }
 .footer-list-item {
+ font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14)
@@ -163,6 +166,7 @@
 }
 /* Поттфолио */
 .button-portfolio {
+    border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 14)
