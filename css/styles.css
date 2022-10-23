@@ -82,12 +82,12 @@
 }
 .hero-buton {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   align-items: center;
   letter-spacing: 0.06em;
+  color: #FFFFFF;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -95,8 +95,6 @@
 
   background: #2F303A;
 /* УВАГА ДО ДЕТАЛЕЙ */
-.about {
-}
 .about-list-text {
   font-weight: 700;
   font-size: 14px;
@@ -187,9 +185,18 @@
   color: rgba(255, 255, 255, 0.6);
 }
 /* Поттфолио */
-.none{
-  display:none
-}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 .button-portfolio {
   font-family: "Roboto";
   font-style: normal;
@@ -207,6 +214,8 @@
   background: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px
 }
 .commands-list-item {
   background-color: var(--bg-header-color);
